@@ -1,0 +1,9 @@
+As fotos atuais foram recortadas de um print do Instagram e têm qualidade baixa.
+Troque pelos arquivos originais da Cecília mantendo os MESMOS nomes:
+
+destaque.jpg      -> foto grande do topo (gestante de vestido preto)
+gestante-1.jpg, gestante-2.jpg, gestante-3.jpg   -> página Ensaio Gestante
+corporativo-1.jpg, corporativo-2.jpg             -> página Corporativo
+cecilia.jpg       -> foto dela (seção Sobre; fica em círculo)
+
+Formato vertical 4:5 (ex: 1600x2000 px), até ~400 KB cada. Comprima em squoosh.app.

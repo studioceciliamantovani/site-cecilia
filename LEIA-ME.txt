@@ -1,0 +1,50 @@
+SITE CECÍLIA MANTOVANI FOTOGRAFIA — COMO COLOCAR NO AR
+
+1. ENVIE PARA O GITHUB SÓ O CONTEÚDO DA PASTA "ARQUIVOS-DO-SITE"
+   (não envie este LEIA-ME nem o TROCAR-FOTOS).
+
+2. FOTOS
+   As fotos atuais são provisórias (recortadas do Instagram). Veja TROCAR-FOTOS.txt.
+
+3. REGISTRE O DOMÍNIO
+   registro.br -> procure studioceciliamantovani.com.br (custa cerca de R$ 40 por ano).
+   Se escolher outro domínio, troque "studioceciliamantovani.com.br" em todos os arquivos.
+
+4. HOSPEDE DE GRAÇA (GitHub Pages)
+   a) Crie conta em github.com
+   b) "+" > New repository > nome: site-cecilia > Public > Create repository
+   c) Clique em "uploading an existing file" e arraste TODO o conteúdo da pasta ARQUIVOS-DO-SITE
+      (os .html, style.css, sitemap.xml, robots.txt e as pastas fotos e img).
+      O index.html precisa ficar na raiz, não dentro de outra pasta. > Commit changes
+   d) Settings > Pages > Source: "Deploy from a branch" > Branch: main / (root) > Save
+   e) Ainda em Pages, em "Custom domain" deve aparecer studioceciliamantovani.com.br
+      Faça isso só DEPOIS de registrar o domínio: digite studioceciliamantovani.com.br e salve.
+
+   NO REGISTRO.BR (depois de registrar o domínio):
+   Domínio > DNS > "Editar zona" e crie:
+     Tipo A     | nome: (vazio)  | 185.199.108.153
+     Tipo A     | nome: (vazio)  | 185.199.109.153
+     Tipo A     | nome: (vazio)  | 185.199.110.153
+     Tipo A     | nome: (vazio)  | 185.199.111.153
+     Tipo CNAME | nome: www      | SEU-USUARIO.github.io
+   A propagação leva de minutos a algumas horas.
+   Depois volte em Settings > Pages e marque "Enforce HTTPS" (o cadeado).
+
+   PARA ATUALIZAR O SITE: no GitHub, abra o arquivo, clique no lápis, edite e
+   "Commit changes". Para trocar fotos: Add file > Upload files na pasta fotos.
+   O site atualiza sozinho em 1 ou 2 minutos.
+
+5. AVISE O GOOGLE
+   - search.google.com/search-console > adicione o domínio e verifique
+   - Menu "Sitemaps" > envie: sitemap.xml
+   O Google costuma levar de alguns dias a algumas semanas para mostrar o site.
+
+6. O MAIS IMPORTANTE PARA BUSCAS LOCAIS: PERFIL DA EMPRESA NO GOOGLE
+   business.google.com > crie "Cecília Mantovani Fotografia", categoria "Fotógrafo",
+   área de atendimento Ribeirão Preto e região, e coloque o link do site.
+   Peça para clientes deixarem avaliações lá. É isso que faz aparecer no mapa
+   quando alguém busca "fotógrafa gestante Ribeirão Preto".
+
+7. DICAS EXTRAS
+   - Coloque o link do site na bio do Instagram.
+   - Nomes de arquivo e textos já estão com "Ribeirão Preto"; mantenha isso ao editar.

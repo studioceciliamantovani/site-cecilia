@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://studioceciliamantovani.com.br/sitemap.xml
